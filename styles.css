@@ -1,7 +1,16 @@
 @import url('https://fonts.googleapis.com/css?family=Montserrat:100,200,300,400,500,600,700,800,900&display=swap');
+@font-face {
+    font-family: Nateli;
+    src: url(./fonts/bpg_nateli.ttf);
+}
+
 body {
     margin: 0;
     background-color: #36454f;
+}
+
+a {
+    text-decoration: none;
 }
 
 table,
@@ -12,6 +21,10 @@ td {
 
 div:focus {
     outline: 0;
+}
+
+#map {
+    height: 500px;
 }
 
 .list {
@@ -55,7 +68,7 @@ div:focus {
 }
 
 .car_categories_list {
-    margin-bottom: 50px;
+    margin: 20px 0;
     border-spacing: 5px;
 }
 
@@ -72,12 +85,62 @@ div:focus {
     color: #000000;
 }
 
-.city {
+.phone_container {
+    margin: 20px 0;
+    border-spacing: 5px;
+}
+
+.phone_pic {
+    width: 30px;
+    height: 30px;
+    border-radius: 5px;
+    background-color: #F9A602;
+    background-image: url('./images/phone.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 25px 25px;
+}
+
+.phone_number {
+    height: 30px;
+    text-align: center;
+    vertical-align: middle;
     font-family: 'Montserrat', sans-serif;
-    font-size: 25px;
+    font-size: 15px;
     font-weight: 300;
     color: #F9A602;
-    border: 1px solid coral;
+}
+
+.cities_list {
+    margin-bottom: 25px;
+    border-spacing: 5px;
+}
+
+.city {
+    width: 30px;
+    height: 30px;
+    border-radius: 5px;
+    border: 1px solid #F9A602;
+    text-align: center;
+    vertical-align: middle;
+    font-family: 'Nateli';
+    font-size: 20px;
+    font-weight: 300;
+    color: #F9A602;
+}
+
+.city_1 {
+    height: 30px;
+    text-align: left;
+    vertical-align: middle;
+    font-family: 'Nateli';
+    font-size: 20px;
+    font-weight: 300;
+    color: #F9A602;
+}
+
+.city_1 a {
+    color: #F9A602;
 }
 
 .rise {
