@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="styles.css">
+    <title>Document</title>
+</head>
+
+<body>
+
+    <table class="list">
+        <tr>
+            <td class="ticket_container">
+                <div tabindex="1" class="ticket" onmouseover="rise(this)" onmouseout="rise(this)" onclick="pin(this)" onblur="unpin(this)">
+                    <div class="ticket_title">Quicktest</div>
+                    <hr>
+                    <table class="car_categories_list">
+                        <tr>
+                            <td class="car_category">M1</td>
+                            <td class="car_category">M2</td>
+                            <td class="car_category"></td>
+                        </tr>
+                        <tr>
+                            <td class="car_category">N1</td>
+                            <td class="car_category"></td>
+                            <td class="car_category"></td>
+                        </tr>
+                        <tr>
+                            <td class="car_category"></td>
+                            <td class="car_category"></td>
+                            <td class="car_category"></td>
+                        </tr>
+                    </table>
+                </div>
+            </td>
+
+            <td class="ticket_container">
+                <div tabindex="1" class="ticket" onmouseover="rise(this)" onmouseout="rise(this)" onclick="pin(this)" onblur="unpin(this)">
+                    <div class="ticket_title">Ttmotors</div>
+                    <hr>
+                    <table class="car_categories_list">
+                        <tr>
+                            <td class="car_category">M1</td>
+                            <td class="car_category">M2</td>
+                            <td class="car_category"></td>
+                        </tr>
+                        <tr>
+                            <td class="car_category">N1</td>
+                            <td class="car_category"></td>
+                            <td class="car_category"></td>
+                        </tr>
+                        <tr>
+                            <td class="car_category"></td>
+                            <td class="car_category"></td>
+                            <td class="car_category"></td>
+                        </tr>
+                    </table>
+                </div>
+            </td>
+
+            <td class="ticket_container">
+                <div tabindex="1" class="ticket" onmouseover="rise(this)" onmouseout="rise(this)" onclick="pin(this)" onblur="unpin(this)">
+                    <div class="ticket_title">Tester</div>
+                    <hr>
+                    <table class="car_categories_list">
+                        <tr>
+                            <td class="car_category">M1</td>
+                            <td class="car_category">M2</td>
+                            <td class="car_category"></td>
+                        </tr>
+                        <tr>
+                            <td class="car_category">N1</td>
+                            <td class="car_category"></td>
+                            <td class="car_category"></td>
+                        </tr>
+                        <tr>
+                            <td class="car_category"></td>
+                            <td class="car_category"></td>
+                            <td class="car_category"></td>
+                        </tr>
+                    </table>
+                </div>
+            </td>
+
+            <td class="ticket_container">
+                <div tabindex="1" class="ticket" onmouseover="rise(this)" onmouseout="rise(this)" onclick="pin(this)" onblur="unpin(this)">
+                    <div class="ticket_title">Vis</div>
+                    <hr>
+                    <table class="car_categories_list">
+                        <tr>
+                            <td class="car_category">M1</td>
+                            <td class="car_category">M2</td>
+                            <td class="car_category">M3</td>
+                        </tr>
+                        <tr>
+                            <td class="car_category">N1</td>
+                            <td class="car_category">N2</td>
+                            <td class="car_category">N3</td>
+                        </tr>
+                        <tr>
+                            <td class="car_category">O3</td>
+                            <td class="car_category">O4</td>
+                            <td class="car_category"></td>
+                        </tr>
+                    </table>
+                </div>
+            </td>
+
+            <td class="ticket_container">
+                <div tabindex="1" class="ticket" onmouseover="rise(this)" onmouseout="rise(this)" onclick="pin(this)" onblur="unpin(this)">
+                    <div class="ticket_title">Cezarion</div>
+                    <hr>
+                    <table class="car_categories_list">
+                        <tr>
+                            <td class="car_category">M1</td>
+                            <td class="car_category">M2</td>
+                            <td class="car_category"></td>
+                        </tr>
+                        <tr>
+                            <td class="car_category">N1</td>
+                            <td class="car_category"></td>
+                            <td class="car_category"></td>
+                        </tr>
+                        <tr>
+                            <td class="car_category"></td>
+                            <td class="car_category"></td>
+                            <td class="car_category"></td>
+                        </tr>
+                    </table>
+                </div>
+            </td>
+
+        </tr>
+    </table>
+
+    <script>
+        function rise(ticket) {
+            ticket.classList.toggle('rise');
+        }
+
+        function pin(ticket) {
+            ticket.classList.toggle('rise_1');
+        }
+
+        function unpin(ticket) {
+            ticket.classList.remove('rise_1');
+        }
+    </script>
+</body>
+
+</html>
